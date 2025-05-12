@@ -243,10 +243,10 @@ margin-bottom: 3px;
     flex-direction: column;
     margin: 0;
     padding: 0;
+    height: 100vh;
   }
 
   .containerForm {
     page-break-after: always;
-    height: 100vh; 
   }
 }
