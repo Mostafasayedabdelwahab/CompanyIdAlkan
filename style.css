@@ -241,10 +241,12 @@ margin-bottom: 3px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+    margin: 0;
+    padding: 0;
   }
 
   .containerForm {
     page-break-after: always;
+    height: 100vh; 
   }
 }
