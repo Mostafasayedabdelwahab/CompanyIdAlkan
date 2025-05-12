@@ -237,7 +237,11 @@ margin-bottom: 3px;
 
 @media print {
   body {
-    display: block !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
   }
 
   .containerForm {
