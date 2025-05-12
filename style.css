@@ -232,3 +232,15 @@ border-radius: 5px;
 font-size: 14px;
 margin-bottom: 3px;
 }
+
+
+
+@media print {
+  body {
+    display: block !important;
+  }
+
+  .containerForm {
+    page-break-after: always;
+  }
+}
